@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bold 3D White Digital Clock</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #03030b;
+      --white: #ffffff;
+      --blue: #38bdf8;
+      --purple: #c084fc;
+      --text: #f5f1ff;
+      --muted: #8982a8;
+    }
+    * { box-sizing: border-box; }
+    html, body { min-height: 100%; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      padding: clamp(16px, 4vw, 48px);
+      display: grid;
+      place-items: center;
+      overflow-x: hidden;
+      font-family: "Courier New", monospace;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse at 22% 30%, rgba(56,189,248,.18), transparent 40%),
+        radial-gradient(ellipse at 78% 70%, rgba(192,132,252,.2), transparent 44%),
+        repeating-linear-gradient(0deg, rgba(255,255,255,.018) 0 1px, transparent 1px 4px),
+        var(--bg);
+    }
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background: linear-gradient(rgba(120,100,255,.025) 50%, transparent 50%);
+      background-size: 100% 4px;
+      mix-blend-mode: screen;
+      opacity: .55;
+    }
+    .scene { width: min(100%, 980px); perspective: 1200px; }
+    .clock-shell {
+      position: relative;
+      isolation: isolate;
+      width: 100%;
+      max-width: 900px;
+      margin: auto;
+      padding: clamp(24px, 6vw, 58px);
+      border: 2px solid rgba(151,125,255,.7);
+      border-radius: 18px;
+      background: linear-gradient(145deg, rgba(28,24,67,.98), rgba(5,4,17,.99) 62%, rgba(18,10,42,.99));
+      transform: rotateX(4deg) rotateY(-3deg);
+      transform-style: preserve-3d;
+      box-shadow:
+        18px 24px 0 -7px #100b26,
+        28px 34px 0 -12px #080616,
+        0 0 0 7px rgba(110,90,255,.06),
+        0 28px 70px rgba(0,0,0,.75),
+        0 0 80px rgba(104,74,255,.25),
+        inset 0 2px 0 rgba(255,255,255,.14),
+        inset 0 -12px 24px rgba(0,0,0,.45);
+    }
+    .clock-shell::before,
+    .clock-shell::after { content: ""; position: absolute; pointer-events: none; z-index: -1; }
+    .clock-shell::before {
+      inset: 10px;
+      border: 1px solid rgba(56,189,248,.23);
+      border-radius: 10px;
+      box-shadow: inset 0 0 25px rgba(56,189,248,.07);
+      transform: translateZ(12px);
+    }
+    .clock-shell::after {
+      left: 5%; right: 5%; bottom: -34px; height: 40px;
+      background: rgba(0,0,0,.6); filter: blur(18px);
+      transform: rotateX(75deg) translateZ(-30px);
+    }
+    .brand {
+      margin: 0 0 25px;
+      color: var(--purple);
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: .42em;
+      text-transform: uppercase;
+      text-shadow: 0 2px 0 #291454;
+      transform: translateZ(25px);
+    }
+    .display {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      min-width: 0;
+      gap: clamp(5px, 1.7vw, 17px);
+      padding: clamp(20px, 4vw, 36px) clamp(10px, 4vw, 42px);
+      border: 1px solid rgba(56,189,248,.35);
+      border-radius: 8px;
+      background: linear-gradient(145deg, #07091a, #010208);
+      transform: translateZ(32px);
+      box-shadow: inset 0 5px 4px rgba(0,0,0,.8), inset 0 -4px 8px rgba(255,255,255,.04), 0 4px 0 #11132c, 0 0 26px rgba(56,189,248,.1);
+    }
+    .digit {
+      position: relative;
+      flex: 1 1 0;
+      width: auto;
+      max-width: 92px;
+      height: clamp(70px, 17vw, 160px);
+      min-width: 24px;
+      transform: translateZ(8px);
+      filter: drop-shadow(0 8px 3px rgba(0,0,0,.65));
+    }
+    .segment {
+      position: absolute;
+      background: rgba(255,255,255,.07);
+      border-radius: 6px;
+      opacity: .45;
+    }
+    /* Extra-thick solid white segments for bolder numbers. */
+    .segment.on {
+      background: var(--white);
+      opacity: 1;
+    }
+    .a, .g, .d { left: 7%; width: 86%; height: 13%; }
+    .a { top: 0; } .g { top: 43.5%; } .d { bottom: 0; }
+    .b, .c, .e, .f { width: 14%; height: 44%; }
+    .f { left: 0; top: 4%; } .b { right: 0; top: 4%; }
+    .e { left: 0; bottom: 4%; } .c { right: 0; bottom: 4%; }
+    .colon {
+      display: grid;
+      flex: 0 0 auto;
+      gap: clamp(12px, 3vw, 28px);
+      margin: 0 clamp(1px, .5vw, 6px);
+      transform: translateZ(14px);
+    }
+    .colon span {
+      width: clamp(8px, 1.7vw, 16px);
+      height: clamp(8px, 1.7vw, 16px);
+      border-radius: 3px;
+      background: var(--white);
+    }
+    .ampm {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      flex: 0 0 auto;
+      margin-left: clamp(2px, 1vw, 12px);
+      color: var(--muted);
+      font-size: clamp(9px, 1.7vw, 15px);
+      font-weight: bold;
+    }
+    .ampm span.active { color: var(--white); }
+    .date, .meta, .controls { transform: translateZ(18px); }
+    .date {
+      margin: 27px 0 0;
+      color: var(--text);
+      font-size: clamp(13px, 2vw, 18px);
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .meta { margin-top: 13px; color: var(--muted); font-size: 11px; letter-spacing: .1em; }
+    .controls { display: flex; justify-content: center; gap: 10px; margin-top: 28px; }
+    button {
+      border: 1px solid rgba(56,189,248,.35);
+      border-radius: 4px;
+      padding: 9px 14px;
+      color: var(--muted);
+      background: linear-gradient(#171333, #080716);
+      font: inherit;
+      font-size: 11px;
+      cursor: pointer;
+      box-shadow: 0 4px 0 #05040d;
+    }
+    button:hover, button.active { color: var(--white); border-color: var(--blue); }
+    button:active { transform: translateY(3px); box-shadow: 0 1px 0 #05040d; }
+    @media (max-width: 600px) {
+      body { padding: 12px; }
+      .clock-shell { transform: none; padding: 24px 12px 28px; }
+      .display { gap: 4px; padding: 18px 7px; }
+      .brand { letter-spacing: .25em; }
+      .clock-shell::after { display: none; }
+    }
+    @media (prefers-reduced-motion: reduce) { .clock-shell { transform: none; } }
+    .topnav { position: fixed; top: 0; left: 0; right: 0; z-index: 20; display: flex; gap: 6px; padding: 10px 20px; background: rgba(3,3,11,.88); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(151,125,255,.45); }
+    .topnav a { color: var(--muted); text-decoration: none; font-size: 11px; letter-spacing: .25em; text-transform: uppercase; padding: 6px 10px; border-radius: 4px; border: 1px solid transparent; }
+    .topnav a:hover, .topnav a.active { color: var(--white); border-color: rgba(56,189,248,.4); }
+    body { padding-top: 52px; }
+  </style>
+</head>
+<body>
+  <nav class="topnav"><a href="clock.html" class="active">Clock</a><a href="notepad.html">Notes</a></nav>
+  <div class="scene">
+    <main class="clock-shell" aria-label="Bold 3D white digital clock">
+      <p class="brand">SYS // 3D DIGITAL CLOCK</p>
+      <div class="display" id="display" aria-live="polite"></div>
+      <p class="date" id="date">LOADING...</p>
+      <div class="meta" id="zone">LOCAL TIME</div>
+      <div class="controls">
+        <button id="twelve" class="active" type="button">12H FORMAT</button>
+        <button id="twentyfour" type="button">24H FORMAT</button>
+      </div>
+    </main>
+  </div>
+  <script>
+    const patterns = {
+      '0': ['a','b','c','d','e','f'], '1': ['b','c'], '2': ['a','b','g','e','d'],
+      '3': ['a','b','g','c','d'], '4': ['f','g','b','c'], '5': ['a','f','g','c','d'],
+      '6': ['a','f','g','e','c','d'], '7': ['a','b','c'], '8': ['a','b','c','d','e','f','g'],
+      '9': ['a','b','c','d','f','g']
+    };
+    let is24Hour = false;
+    const display = document.getElementById('display');
+    const dateEl = document.getElementById('date');
+    const zoneEl = document.getElementById('zone');
+    const zone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    zoneEl.textContent = 'ZONE // ' + zone.replaceAll('_', ' ').toUpperCase();
+    function digit(value) {
+      const active = patterns[value] || [];
+      return `<span class="digit">${['a','b','c','d','e','f','g'].map(s => `<i class="segment ${s} ${active.includes(s) ? 'on' : ''}"></i>`).join('')}</span>`;
+    }
+    function colon() { return '<span class="colon"><span></span><span></span></span>'; }
+    function update() {
+      const now = new Date();
+      const parts = new Intl.DateTimeFormat(undefined, { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: !is24Hour }).formatToParts(now);
+      const get = t => parts.find(p => p.type === t)?.value || '';
+      const h = get('hour'), m = get('minute'), s = get('second'), period = get('dayPeriod');
+      display.innerHTML = `${digit(h[0])}${digit(h[1])}${colon()}${digit(m[0])}${digit(m[1])}${colon()}${digit(s[0])}${digit(s[1])}${!is24Hour ? `<span class="ampm"><span class="${period === 'AM' ? 'active' : ''}">AM</span><span class="${period === 'PM' ? 'active' : ''}">PM</span></span>` : ''}`;
+      dateEl.textContent = new Intl.DateTimeFormat(undefined, { weekday: 'short', month: 'short', day: '2-digit', year: 'numeric' }).format(now).toUpperCase();
+    }
+    function setFormat(value) {
+      is24Hour = value;
+      document.getElementById('twelve').classList.toggle('active', !value);
+      document.getElementById('twentyfour').classList.toggle('active', value);
+      update();
+    }
+    document.getElementById('twelve').onclick = () => setFormat(false);
+    document.getElementById('twentyfour').onclick = () => setFormat(true);
+    update();
+    setInterval(update, 250);
+  </script>
+</body>
+</html>
