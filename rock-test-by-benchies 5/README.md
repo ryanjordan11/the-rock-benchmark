@@ -3,6 +3,19 @@
 Date: Wed, October 28, 2026
 Purpose: Most rock solid benchmark for current company data, not public trivia
 
+
+## Independent Second Tester
+
+**Tim Lewis** - https://www.facebook.com/timl3878
+- 13K followers, building faceless income with AI
+- Independent tester - had nothing to do with building Ubiquitous
+- Will run dual-run on Zoom at same time on different computer, both screens recorded
+- Gets full credit for independent verification
+
+Tim is listed here as independent second tester for Rock Test by the Benchies.
+
+---
+
 ## What this is
 This repo contains the full transparency development log showing how we prepped rules before final Rock Test suite.
 
