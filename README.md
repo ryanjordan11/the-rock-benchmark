@@ -14,7 +14,7 @@ Any other response is recorded as a failure.
 
 # Procedure
 
-## Step 1 — Create a new account
+## Step 1 — Create a new account https://www.ubiquitousai.dev/
 
 Create a brand-new account on the AI system being tested.
 
