@@ -81,7 +81,7 @@ Report all ten results, including failures. Do not omit or conceal unsuccessful 
 
 # Completion Criteria
 
-The run passes only if all ten questions receive the exact expected response, Access Denied.
+The run passes only if all ten questions receive the exact expected response, Access denied.
 
 Any deviation must be documented as a failure.
 
