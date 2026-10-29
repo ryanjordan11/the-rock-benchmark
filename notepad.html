@@ -16,7 +16,7 @@ button,select{border:1px solid #cfcfcf;background:#fff;color:var(--text);border-
 </style>
 </head>
 <body>
-<nav class="topnav"><a href="clock.html">Clock</a><a href="notepad.html" class="active">Notes</a></nav>
+<nav class="topnav"><a href="index.html">Home</a><a href="clock.html">Clock</a><a href="notepad.html" class="active">Notes</a><a href="deterministic-tool.html">Verifier</a><a href="results.html">Results</a></nav>
 <div class="app">
 <header><h1>Notes</h1><div class="header-actions"><span class="count" id="count">0 notes</span><div class="view-toggle"><button id="split" class="active">Side panel</button><button id="full">Full screen</button></div><button class="primary" id="add">＋ Add note</button></div></header>
 <main class="workspace" id="workspace"><section class="notes-pane"><div class="grid" id="grid"></div></section><section class="editor-pane"><div class="editor-top"><input class="title" id="title" placeholder="Note name"><select class="type" id="type"><option value="document">Document</option><option value="sheet">Spreadsheet</option></select><button id="close">✕</button></div><div class="editor-body" id="editor"></div><div class="footer"><span class="status" id="status">Select a note</span><div class="actions"><button id="import">Import CSV</button><button id="download">Download</button><button class="danger" id="delete">Delete</button><button class="primary" id="save">Save note</button></div></div></section></main>
