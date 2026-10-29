@@ -4,46 +4,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Rock Benchmark — Tools</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#0b0b12;--card:#15151f;--text:#f5f1ff;--muted:#8982a8;--accent:#38bdf8;--line:rgba(151,125,255,.35)}
+  :root{--bg:#0b0b12;--surface:#15151f;--surface-2:#1c1c2a;--surface-3:#232336;--border:rgba(151,125,255,.22);--border-2:rgba(151,125,255,.45);--text:#f5f1ff;--text-dim:#8982a8;--text-faint:#5a557a;--accent:#38bdf8;--accent-dim:rgba(56,189,248,.12);--green:#34d399;--red:#f87171}
   *{box-sizing:border-box}
-  body{margin:0;min-height:100vh;background:radial-gradient(ellipse at 20% 20%,rgba(56,189,248,.12),transparent 45%),radial-gradient(ellipse at 80% 70%,rgba(192,132,252,.15),transparent 45%),#0b0b12;color:var(--text);font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column}
-  nav{display:flex;gap:8px;padding:14px 24px;border-bottom:1px solid var(--line);background:rgba(11,11,18,.85);backdrop-filter:blur(8px)}
-  nav a{color:var(--muted);text-decoration:none;font-size:12px;letter-spacing:.2em;text-transform:uppercase;padding:6px 10px;border-radius:4px;border:1px solid transparent}
-  nav a:hover{color:#fff;border-color:var(--accent)}
-  main{flex:1;display:grid;place-items:center;padding:40px 20px}
-  .wrap{max-width:720px;width:100%}
-  h1{font-size:28px;margin:0 0 8px}
-  p{color:var(--muted);line-height:1.6}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:28px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;text-decoration:none;color:var(--text);transition:transform .15s,border-color .15s,box-shadow .15s}
-  .card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 8px 24px rgba(0,0,0,.4)}
-  .card h2{margin:0 0 6px;font-size:18px}
-  .card span{color:var(--muted);font-size:13px}
-  footer{padding:16px 24px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}
+  body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:'Poppins',Arial,Helvetica,sans-serif}
+  header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--border);background:var(--bg)/90;backdrop-filter:blur(12px)}
+  .header-inner{max-width:1440px;margin:0 auto;padding:0 24px;height:64px;display:flex;align-items:center;justify-content:space-between;gap:16px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .logo{height:36px;width:36px;border-radius:10px;background:var(--text);color:var(--bg);display:grid;place-items:center;font-weight:900;font-size:14px;letter-spacing:-.03em}
+  .title-block h1{margin:0;font-size:15px;font-weight:800;letter-spacing:-.02em;text-transform:uppercase;line-height:1}
+  .title-block div{font-family:ui-monospace,monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--text-dim);margin-top:3px}
+  .badges{display:flex;gap:8px;align-items:center;font-family:ui-monospace,monospace;font-size:10px}
+  .badge{padding:4px 10px;border-radius:999px;border:1px solid var(--border);background:var(--surface);color:var(--text-dim)}
+  .badge.accent{background:var(--accent);color:#000;font-weight:700;border-color:var(--accent)}
+  nav{display:flex;gap:6px;align-items:center}
+  nav a{color:var(--text-dim);text-decoration:none;font-size:11px;letter-spacing:.18em;text-transform:uppercase;padding:6px 10px;border-radius:6px;border:1px solid transparent;font-family:ui-monospace,monospace;font-weight:700}
+  nav a:hover,nav a.active{color:var(--text);border-color:var(--accent)}
+  main{max-width:1440px;margin:0 auto;padding:32px 24px}
+  .hero{margin-bottom:28px}
+  .hero h2{font-size:26px;font-weight:800;letter-spacing:-.02em;margin:0 0 8px}
+  .hero p{color:var(--text-dim);line-height:1.6;margin:0;max-width:720px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px;text-decoration:none;color:var(--text);transition:transform .15s,border-color .15s,box-shadow .15s;display:block}
+  .card:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 12px 32px rgba(0,0,0,.4)}
+  .card h3{margin:0 0 6px;font-size:17px;font-weight:700}
+  .card span{color:var(--text-dim);font-size:13px;line-height:1.5}
+  footer{padding:20px 24px;color:var(--text-faint);font-size:11px;letter-spacing:.12em;text-transform:uppercase;border-top:1px solid var(--border);margin-top:40px;font-family:ui-monospace,monospace}
+  .mono{font-family:ui-monospace,monospace}
 </style>
 </head>
 <body>
-<nav>
-  <a href="index.html" class="active">Home</a>
-  <a href="clock.html">Clock</a>
-  <a href="notepad.html">Notes</a>
-  <a href="deterministic-tool.html">Verifier</a>
-  <a href="results.html">Results</a>
-</nav>
-<main>
-  <div class="wrap">
-    <h1>The Rock Benchmark</h1>
-    <p>Transparency evidence pack plus small utility pages used alongside the benchmark. Everything here is public for reproducibility.</p>
-    <div class="grid">
-      <a class="card" href="clock.html"><h2>Digital Clock</h2><span>Bold 3D white digital clock</span></a>
-      <a class="card" href="notepad.html"><h2>Notes</h2><span>Local notes with document &amp; spreadsheet support</span></a>
-      <a class="card" href="deterministic-tool.html"><h2>Deterministic Verifier</h2><span>Verbatim byte-for-byte comparison tool</span></a>
-      <a class="card" href="results.html"><h2>Results</h2><span>Verbatim match results log</span></a>
-      <a class="card" href="rock-test-by-benchies%205/README.md"><h2>Evidence Pack</h2><span>Full transparency development log</span></a>
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <div class="logo">R▓</div>
+      <div class="title-block">
+        <h1>The Rock Benchmark</h1>
+        <div>Dashboard • Tools • Evidence</div>
+      </div>
+    </div>
+    <nav>
+      <a href="index.html" class="active">Home</a>
+      <a href="clock.html">Clock</a>
+      <a href="notepad.html">Notes</a>
+      <a href="deterministic-tool.html">Verifier</a>
+      <a href="results.html">Results</a>
+    </nav>
+    <div class="badges">
+      <span class="badge">SHA-256</span>
+      <span class="badge accent">DETERMINISTIC</span>
     </div>
   </div>
+</header>
+<main>
+  <div class="hero">
+    <h2>Tools &amp; Evidence</h2>
+    <p>Transparency evidence pack plus small utility pages used alongside the benchmark. Everything here is public for reproducibility.</p>
+  </div>
+  <div class="grid">
+    <a class="card" href="clock.html"><h3>Digital Clock</h3><span>Bold 3D white digital clock</span></a>
+    <a class="card" href="notepad.html"><h3>Notes</h3><span>Local notes with document &amp; spreadsheet support</span></a>
+    <a class="card" href="deterministic-tool.html"><h3>Deterministic Verifier</h3><span>Verbatim byte-for-byte comparison tool</span></a>
+    <a class="card" href="results.html"><h3>Results</h3><span>Verbatim match results log</span></a>
+    <a class="card" href="rock-test-by-benchies%205/README.md"><h3>Evidence Pack</h3><span>Full transparency development log</span></a>
+  </div>
 </main>
-<footer>the-rock-benchmark · GitHub Pages / Vercel</footer>
+<footer>the-rock-benchmark • GitHub Pages / Vercel</footer>
 </body>
 </html>
+EOF
+git add index.html && git commit -m "Restyle dashboard to match deterministic tool design" && git push
