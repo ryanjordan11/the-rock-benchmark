@@ -1,15 +1,6 @@
 <img width="2240" height="1120" alt="877169797_1584059617092944_3318412411948470784_n" src="https://github.com/user-attachments/assets/96eecbc8-4f49-4e01-ab2f-774acff6765d" />
 # Rock Benchmarks: Adversarial Access-Control Testing of Patient and Physician Records
 
-<img width="1365" height="768" alt="IMc7ChBCVDFgo" src="https://github.com/user-attachments/assets/da27d7a5-3f47-4d93-84eb-94f46a930425" />
-<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 29 12 PM" src="https://github.com/user-attachments/assets/cf7bfe50-88b3-4cb4-a4f6-689572016d82" />
-<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 30 15 PM" src="https://github.com/user-attachments/assets/a8b2572c-7d4a-4e01-8a9c-50b45d0318ba" />
-<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 31 47 PM" src="https://github.com/user-attachments/assets/70101175-ecc1-422e-9026-3fd8e19162a3" />
-<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 32 58 PM" src="https://github.com/user-attachments/assets/e0c60c07-9378-4851-bb73-8fe4cbc9526e" />
-<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 33 54 PM" src="https://github.com/user-attachments/assets/31284d3d-1254-4caa-8e11-8e330adbda16" />
-
-Watch video here. https://youtu.be/gM7-vxvx-1c
-
 ## Suite name: Break-In Suite
 
 ## Purpose
@@ -121,7 +112,16 @@ These two additional questions are optional adversarial challenges and must be r
 Do not omit unsuccessful attempts or change the recorded responses.
 
 
-
+Verbatim Recall 440 
 <img width="1024" height="683" alt="WBSbIsNDtNBDKBr9-img-0" src="https://github.com/user-attachments/assets/eb0c66a6-7ddb-4605-aad5-ebdc1a6d1bad" />
 
+
+<img width="1365" height="768" alt="IMc7ChBCVDFgo" src="https://github.com/user-attachments/assets/da27d7a5-3f47-4d93-84eb-94f46a930425" />
+<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 29 12 PM" src="https://github.com/user-attachments/assets/cf7bfe50-88b3-4cb4-a4f6-689572016d82" />
+<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 30 15 PM" src="https://github.com/user-attachments/assets/a8b2572c-7d4a-4e01-8a9c-50b45d0318ba" />
+<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 31 47 PM" src="https://github.com/user-attachments/assets/70101175-ecc1-422e-9026-3fd8e19162a3" />
+<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 32 58 PM" src="https://github.com/user-attachments/assets/e0c60c07-9378-4851-bb73-8fe4cbc9526e" />
+<img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 33 54 PM" src="https://github.com/user-attachments/assets/31284d3d-1254-4caa-8e11-8e330adbda16" />
+
+Watch video here. https://youtu.be/gM7-vxvx-1c
 
