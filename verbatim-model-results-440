@@ -1,0 +1,499 @@
+dataset
+
+
+76 Google AI Models with Input and Output Prices
+
+A catalog of 76 Google AI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+
+| No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
+|---:|---|---|---|---:|---:|
+| 1 | Google | DeepInfra Gemma 4 26B A4B IT | A mixture-of-experts model activating 4B parameters per inference for efficient reasoning. | $0.1144 | $0.5005 |
+| 2 | Google | Gemini Experimental 1114 | An experimental Gemini model optimized for fast general-purpose use. | $1.625 | $6.5 |
+| 3 | Google | Gemini Experimental 1121 | An experimental Gemini model optimized for fast general-purpose use. | $1.625 | $6.5 |
+| 4 | Google | Gemini Experimental 1206 | Google’s experimental model described as its most powerful at release. | $1.625 | $6.5 |
+| 5 | Google | Gemini Experimental 1114 | A Gemini experimental model available through an alternate route. | $1.625 | $6.5 |
+| 6 | Google | Gemini 2.5 Flash | A fast, cost-efficient multimodal model with visible reasoning and a 1M context window. | $0.39 | $3.2487 |
+| 7 | Google | Gemini 2.5 Flash No Think | A Gemini 2.5 Flash version with thinking disabled by default. | $0.39 | $3.2487 |
+| 8 | Google | Gemini 2.5 Flash Image | A multimodal image-generation and editing model for consistent visual compositions. | $0.39 | $3.2487 |
+| 9 | Google | Gemini 2.5 Flash Image Preview | A preview image-generation model supporting text and image outputs. | $0.39 | $1.56 |
+| 10 | Google | Gemini 2.5 Flash Lite | A low-latency multimodal model for high-throughput tasks and long context. | $0.13 | $0.52 |
+| 11 | Google | Gemini 2.5 Flash Lite No Think | A Gemini 2.5 Flash Lite version with thinking disabled. | $0.13 | $0.52 |
+| 12 | Google | Gemini 2.5 Flash Lite Preview 09 2025 | A preview version of Gemini 2.5 Flash Lite. | $0.13 | $0.52 |
+| 13 | Google | Gemini 2.5 Flash Lite Preview 09 2025 No Think | A no-thinking version of the Gemini 2.5 Flash Lite preview. | $0.13 | $0.52 |
+| 14 | Google | Gemini 2.5 Flash Preview 05-20 No Think | A preview model with thinking disabled for OpenAI-compatible calls. | $0.39 | $3.2487 |
+| 15 | Google | Gemini 2.5 Flash Preview 05-20 Search | A Gemini Flash preview model integrated with Google Search. | $0.39 | $3.2487 |
+| 16 | Google | Gemini 2.5 Flash Preview 09 2025 | An updated Flash preview model with improved agentic tool use. | $0.39 | $3.2487 |
+| 17 | Google | Gemini 2.5 Flash Preview TTS | A low-latency text-to-speech model for expressive real-time voice generation. | $0.65 | $0.65 |
+| 18 | Google | Gemini 2.5 Flash Search | A Flash model integrated with Google’s official search functionality. | $0.39 | $3.2487 |
+| 19 | Google | Gemini 2.5 Pro | An advanced multimodal reasoning model for coding, mathematics, STEM, and long context. | $1.625 | $13 |
+| 20 | Google | Gemini 2.5 Pro Experimental 03-25 | An experimental multimodal model for reasoning, coding, mathematics, and science. | $1.625 | $6.5 |
+| 21 | Google | Gemini 2.5 Pro Preview 03-25 | A high-concurrency preview of Gemini 2.5 Pro. | $1.625 | $13 |
+| 22 | Google | Gemini 2.5 Pro Preview 03-25 Search | A Gemini Pro preview model integrated with Google Search. | $1.625 | $13 |
+| 23 | Google | Gemini 2.5 Pro Preview 05-06 | A preview version of Gemini 2.5 Pro with a 1M context window. | $1.625 | $13 |
+| 24 | Google | Gemini 2.5 Pro Preview 05-06 Search | A Gemini Pro preview model with integrated Google Search. | $1.625 | $13 |
+| 25 | Google | Gemini 2.5 Pro Preview 06-05 | A multimodal flagship preview model for coding, reasoning, and web development. | $1.625 | $13 |
+| 26 | Google | Gemini 2.5 Pro Preview 06-05 Search | A Gemini Pro preview model with integrated Google Search. | $1.625 | $13 |
+| 27 | Google | Gemini 2.5 Pro Preview TTS | A high-fidelity text-to-speech model for premium voice experiences. | $1.3 | $1.3 |
+| 28 | Google | Gemini 2.5 Pro Search | A Pro model integrated with Google’s official search functionality. | $1.625 | $13 |
+| 29 | Google | Gemini 3 Flash Preview | A balanced Gemini model designed for speed, scale, and advanced intelligence. | $0.65 | $3.9 |
+| 30 | Google | Gemini 3 Flash Preview Search | A Gemini 3 Flash preview model with integrated Google Search. | $0.65 | $3.9 |
+| 31 | Google | Gemini 3 Pro Image | A high-performance image-generation and editing model with multimodal reasoning. | $2.6 | $15.6 |
+| 32 | Google | Gemini 3 Pro Image Preview | A deprecated preview image-generation and editing model. | $2.6 | $15.6 |
+| 33 | Google | Gemini 3.1 Flash Image | A fast image model for professional visual generation and editing. | $0.65 | $3.9 |
+| 34 | Google | Gemini 3.1 Flash Image Preview | A deprecated preview version of the Gemini 3.1 Flash image model. | $0.65 | $3.9 |
+| 35 | Google | Gemini 3.1 Flash Lite | A cost-effective model for agents, translation, and simple data processing. | $0.325 | $1.95 |
+| 36 | Google | Gemini 3.1 Flash Lite No Think | A no-thinking version of Gemini 3.1 Flash Lite. | $0.325 | $1.95 |
+| 37 | Google | Gemini 3.1 Flash Lite Image | A compact image-generation and editing model for large-scale use. | $0.325 | $1.95 |
+| 38 | Google | Gemini 3.1 Pro Preview | A reasoning model optimized for software engineering and reliable tool use. | $2.6 | $15.6 |
+| 39 | Google | Gemini 3.1 Pro Preview Custom Tools | A Gemini Pro endpoint optimized for applications using custom tools. | $2.6 | $15.6 |
+| 40 | Google | Gemini 3.1 Pro Preview Search | A Gemini Pro preview model integrated with Google Search. | $2.6 | $15.6 |
+| 41 | Google | Gemini 3.5 Flash | A deprecated frontier-level model for agents and multi-step workflows. | $0.975 | $4.875 |
+| 42 | Google | Gemini 3.5 Flash Lite | A low-latency multimodal model for high-volume agent and document tasks. | $0.39 | $3.25 |
+| 43 | Google | Gemini 3.6 Flash | A fast model for coding, agentic execution, and spatial reasoning. | $0.975 | $4.875 |
+| 44 | Google | Gemini 3.7 Flash | A deprecated multimodal reasoning model for coding, agents, and web development. | $0.975 | $4.875 |
+| 45 | Google | Gemini 3.8 Flash | Google’s advanced Flash model for engineering, agents, and enterprise workflows. | $0.975 | $4.875 |
+| 46 | Google | Gemini 3.8 Flash Lite TTS | A fast, cost-efficient text-to-speech model for production workloads. | $0.65 | $7.8 |
+| 47 | Google | Gemini 3.8 Flash TTS | A text-to-speech model designed for expressive, studio-quality audio. | $0.65 | $11.7 |
+| 48 | Google | Gemini 4 Argon | A multimodal reasoning model for engineering, research, legal work, and cybersecurity. | $2.6 | $13 |
+| 49 | Google | Gemini Embedding Experimental 03-07 | An experimental embedding model for semantic representation tasks. | $0.026 | $0.026 |
+| 50 | Google | Gemini Embedding 001 | The latest version of Google’s Gemini embedding model. | $0.195 | $0.195 |
+| 51 | Google | Gemini Embedding 2 | Google’s first multimodal embedding model. | $0.26 | Free |
+| 52 | Google | Gemini Nano Banana 2.1 | An efficient image-generation and conversational editing model. | $1.95 | $9.75 |
+| 53 | Google | Gemini Omni 1.1 Flash | A fast multimodal model for video generation, editing, and cinematic control. | $1.95 | $11.7 |
+| 54 | Google | Gemini Pro | A fast general-purpose Gemini language model. | $0.26 | $0.78 |
+| 55 | Google | Gemini Pro Vision | A multimodal Gemini model for visual understanding. | $1.3 | $1.3 |
+| 56 | Google | Gemma 2 27B IT | A 27B instruction-tuned Gemma language model. | $1.04 | $1.04 |
+| 57 | Google | Gemma 3 12B IT | A multimodal open-weight model supporting text and image input. | $0.26 | $0.26 |
+| 58 | Google | Gemma 3 12B IT Unsloth | An Unsloth-provided version of Gemma 3 12B IT. | $0.26 | $1.04 |
+| 59 | Google | Gemma 3 1B IT | A compact multimodal instruction-tuned Gemma model. | $0.26 | $0.26 |
+| 60 | Google | Gemma 3 27B IT | A multimodal 27B Gemma model with multilingual support. | $0.26 | $0.26 |
+| 61 | Google | Gemma 3 27B IT Unsloth | An Unsloth-provided version of Gemma 3 27B IT. | $0.286 | $0.286 |
+| 62 | Google | Gemma 3 4B IT | A compact multimodal Gemma model for text and image understanding. | $0.26 | $0.26 |
+| 63 | Google | Gemma 3n E4B IT | An efficient multimodal model designed for everyday devices. | $0.26 | $0.26 |
+| 64 | Google | Gemma 4 26B A4B IT | A multimodal mixture-of-experts model activating a small number of parameters per token. | $0.182 | $0.52 |
+| 65 | Google | Gemma 4 26B A4B IT Free | A free version of Gemma 4 26B A4B IT. | Free | Free |
+| 66 | Google | Gemma 4 31B IT | A dense multimodal model with reasoning, function calling, and a 256K context window. | $0.26 | $0.52 |
+| 67 | Google | Gemma 4 31B IT Free | A free version of Gemma 4 31B IT. | Free | Free |
+| 68 | Google | Gemma 7B IT | A 7B instruction-tuned Gemma language model. | $0.13 | $0.13 |
+| 69 | Google | Google Gemma 3 12B IT | A Google-routed version of the Gemma 3 12B instruction model. | $0.26 | $0.26 |
+| 70 | Google | Google Gemma 3 27B IT | A Google-routed version of the Gemma 3 27B instruction model. | $0.26 | $0.26 |
+| 71 | Google | Google Gemma 3 4B IT | A Google-routed version of the Gemma 3 4B instruction model. | $0.26 | $0.26 |
+| 72 | Google | Imagen 4.0 Fast Generate 001 | A deprecated image model balancing quality, efficiency, and content safety. | Free | Free |
+| 73 | Google | Imagen 4.0 Generate 001 | A deprecated image-generation model with safety and watermarking features. | Free | Free |
+| 74 | Google | Imagen 4.0 Ultra Generate 001 | A deprecated high-quality Imagen image-generation model. | Free | Free |
+| 75 | Google | LearnLM 1.5 Pro Experimental | An experimental Google model for learning and educational applications. | $1.625 | $6.5 |
+| 76 | Google | Text Embedding 004 | An embedding model for semantic representation and retrieval. | $0.026 | $0.026 |
+| 77 | Google | Veo 3.0 Generate Preview | A video-generation model with synchronized audio, physical simulation, and lip-sync. | Free | Free |
+
+**Explicit discount:** Veo 3.0 Generate Preview includes a limited-time **10% savings offer**.
+
+
+
+
+122 OpenAI AI Models with Input and Output Prices
+
+A catalog of 122 OpenAI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+
+| No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
+|---:|---|---|---|---:|---:|
+| 1 | OpenAI | AIHubMix Jamba 1.5 Large | A large language model available through the AIHubMix route. | $2.86 | $11.44 |
+| 2 | OpenAI | AIHubMix Router | An automatic router that selects models based on request complexity. | $0.52 | $2.08 |
+| 3 | OpenAI | Auto | A smart router that automatically selects a suitable model and strategy. | $2.6 | $2.6 |
+| 4 | OpenAI | Codex Mini | A coding model optimized for Codex CLI and software-development tasks. | $1.95 | $7.8 |
+| 5 | OpenAI | Computer Use Preview | A preview model for computer interaction and visual task execution. | $3.9 | $15.6 |
+| 6 | OpenAI | DALL-E 3 | An image-generation model for realistic and artistic visual creation. | Free | Free |
+| 7 | OpenAI | Davinci | A legacy language model for general text-generation tasks. | $26 | $26 |
+| 8 | OpenAI | Davinci 002 | A dated Davinci model for general language processing. | $2.6 | $2.6 |
+| 9 | OpenAI | Distil Whisper Large V3 EN | A distilled speech-transcription model for English audio. | Free | Free |
+| 10 | OpenAI | GPT 3.5 Turbo | A deprecated conversational language model. | $0.65 | $1.95 |
+| 11 | OpenAI | GPT 3.5 Turbo 1106 | A dated GPT 3.5 Turbo model. | $1.3 | $2.6 |
+| 12 | OpenAI | GPT 3.5 Turbo 16K | A GPT 3.5 Turbo version with extended context. | $3.9 | $5.2 |
+| 13 | OpenAI | GPT 3.5 Turbo Instruct | A deprecated instruction-following language model. | $1.95 | $2.6 |
+| 14 | OpenAI | GPT 4 | A deprecated GPT-4 language model. | $39 | $78 |
+| 15 | OpenAI | GPT 4 0613 | A dated GPT-4 model snapshot. | $39 | $78 |
+| 16 | OpenAI | GPT 4 1106 Preview | A deprecated GPT-4 preview model. | $13 | $39 |
+| 17 | OpenAI | GPT 4 Turbo | A deprecated GPT-4 Turbo model. | $13 | $39 |
+| 18 | OpenAI | GPT 4 Turbo 2024-04-09 | A dated GPT-4 Turbo model snapshot. | $13 | $39 |
+| 19 | OpenAI | GPT 4.1 | A flagship multimodal model with a one-million-token context window. | $2.6 | $10.4 |
+| 20 | OpenAI | GPT 4.1 Mini | A smaller, faster multimodal model with long-context support. | $0.52 | $2.08 |
+| 21 | OpenAI | GPT 4.1 Nano | An ultra-lightweight model optimized for speed and low latency. | $0.13 | $0.52 |
+| 22 | OpenAI | GPT 4o | A multimodal model supporting text, audio, images, and video. | $3.25 | $13 |
+| 23 | OpenAI | GPT 4o 2024-05-13 | An early dated GPT-4o model snapshot. | $6.5 | $19.5 |
+| 24 | OpenAI | GPT 4o 2024-08-06 | A GPT-4o snapshot supporting automatic cache discounts. | $3.25 | $13 |
+| 25 | OpenAI | GPT 4o 2024-08-06 Global | A global GPT-4o snapshot. | $3.25 | $13 |
+| 26 | OpenAI | GPT 4o 2024-11-20 | An updated GPT-4o model with improved general performance. | $3.25 | $13 |
+| 27 | OpenAI | GPT 4o Mini | A fast, affordable version of GPT-4o for simpler tasks. | $0.195 | $0.78 |
+| 28 | OpenAI | GPT 4o Mini 2024-07-18 | A dated GPT-4o Mini snapshot. | $0.195 | $0.78 |
+| 29 | OpenAI | GPT 4o Mini Audio Preview | A preview GPT-4o Mini model for audio-related tasks. | $0.195 | $0.78 |
+| 30 | OpenAI | GPT 4o Mini Global | A global GPT-4o Mini model. | $0.195 | $0.78 |
+| 31 | OpenAI | GPT 4o Mini Search Preview | A search-enabled GPT-4o Mini preview model. | $0.195 | $0.78 |
+| 32 | OpenAI | GPT 4o Mini TTS | A fast text-to-speech model for spoken-audio generation. | $0.78 | $15.6 |
+| 33 | OpenAI | GPT 4o Search Preview | A search-enabled GPT-4o preview model. | $3.25 | $13 |
+| 34 | OpenAI | GPT 4o Transcribe Diarize | A speech-recognition model with speaker diarization. | $3.25 | $13 |
+| 35 | OpenAI | GPT 4o Zh | A GPT-4o model route focused on Chinese-language use. | $3.25 | $13 |
+| 36 | OpenAI | GPT 5 | A general-purpose model for advanced reasoning, coding, and high-accuracy tasks. | $1.625 | $13 |
+| 37 | OpenAI | GPT 5 Chat | A GPT-5 snapshot optimized for ChatGPT-style conversations. | $1.625 | $13 |
+| 38 | OpenAI | GPT 5 Mini | A faster, more cost-efficient version of GPT-5. | $0.325 | $2.6 |
+| 39 | OpenAI | GPT 5 Nano | The smallest and fastest GPT-5 variant for developer tools and low latency. | $0.065 | $0.52 |
+| 40 | OpenAI | GPT 5 Pro | A high-compute reasoning model for difficult problems. | $19.5 | $156 |
+| 41 | OpenAI | GPT 5.1 | An advanced model for reasoning, coding, instruction following, and reliability. | $1.625 | $13 |
+| 42 | OpenAI | GPT 5.1 Chat | A GPT-5.1 snapshot optimized for conversational applications. | $1.625 | $13 |
+| 43 | OpenAI | GPT 5.2 | An advanced model with adaptive reasoning and extended-context support. | $2.275 | $18.2 |
+| 44 | OpenAI | GPT 5.2 Chat | A GPT-5.2 snapshot optimized for conversational use. | $2.275 | $18.2 |
+| 45 | OpenAI | GPT 5.2 High | A GPT-5.2 variant with high-intensity reasoning enabled. | $2.275 | $18.2 |
+| 46 | OpenAI | GPT 5.2 Low | A GPT-5.2 variant using a lower-overhead reasoning strategy. | $2.275 | $18.2 |
+| 47 | OpenAI | GPT 5.2 Pro | A high-compute GPT-5.2 model for difficult problems. | $27.3 | $218.4 |
+| 48 | OpenAI | GPT 5.3 Chat | A GPT-5.3 snapshot optimized for conversational applications. | $2.275 | $18.2 |
+| 49 | OpenAI | GPT 5.4 | A frontier model for complex professional work. | $3.25 | $19.5 |
+| 50 | OpenAI | GPT 5.4 High | A GPT-5.4 variant with high-intensity reasoning enabled. | $3.25 | $19.5 |
+| 51 | OpenAI | GPT 5.4 Low | A GPT-5.4 variant with lower-overhead reasoning enabled. | $3.25 | $19.5 |
+| 52 | OpenAI | GPT 5.4 Mini | A faster GPT-5.4 model for high-volume workloads. | $0.975 | $5.85 |
+| 53 | OpenAI | GPT 5.4 Nano | A low-cost model for classification, extraction, ranking, and sub-agents. | $0.26 | $1.625 |
+| 54 | OpenAI | GPT 5.4 Pro | A very high-compute model for demanding professional tasks. | $39 | $234 |
+| 55 | OpenAI | GPT 5.5 | A model for coding, agents, retrieval, and production workflows. | $6.5 | $39 |
+| 56 | OpenAI | GPT 5.5 Pro | A high-compute GPT-5.5 model for complex workloads. | $39 | $234 |
+| 57 | OpenAI | GPT 5.6 Luna | A cost-sensitive model for high-volume workloads. | $0.26 | $1.56 |
+| 58 | OpenAI | GPT 5.6 Sol | A frontier model for coding, knowledge work, cybersecurity, and science. | $5.2 | $26 |
+| 59 | OpenAI | GPT 5.6 Sol Disc | A GPT-5.6 Sol model listed with a limited-time 50% discount. | $5.2 | $26 |
+| 60 | OpenAI | GPT 5.6 Sol Pro | A higher-quality multimodal reasoning model for complex tasks. | $10.4 | $52 |
+| 61 | OpenAI | GPT 5.6 Terra | A model balancing intelligence and cost for general workloads. | $2.6 | $15.6 |
+| 62 | OpenAI | GPT 6 Astra | A highly capable model for computer operations, engineering, research, and professional work. | $13 | $65 |
+| 63 | OpenAI | GPT 6 Luna | An efficient GPT-6 model for focused, high-throughput tasks. | $0.13 | $0.65 |
+| 64 | OpenAI | GPT 6 Sol | A GPT-6 model designed for complex programming and agent workflows. | $2.6 | $13 |
+| 65 | OpenAI | GPT 6.1 Sol | A GPT-6.1 model for programming, computer operations, and professional tasks. | $2.6 | $13 |
+| 66 | OpenAI | GPT 6.1 Terra | A multimodal reasoning model for visual analysis and computer interaction. | $1.3 | $6.5 |
+| 67 | OpenAI | GPT Audio 1.5 | An audio model supporting audio input and output through Chat Completions. | $3.25 | $13 |
+| 68 | OpenAI | GPT Chat | A stable alias for the latest Instant chat model used in ChatGPT. | $6.5 | $39 |
+| 69 | OpenAI | GPT Image 1 | An image model for text-to-image generation and image editing. | $6.5 | $52 |
+| 70 | OpenAI | GPT Image 1 Mini | A smaller, faster GPT image-generation and editing model. | $6.5 | $52 |
+| 71 | OpenAI | GPT Image 1.5 | An upgraded image model for creative and production workflows. | $6.5 | $13 |
+| 72 | OpenAI | GPT Image 2 | An advanced image model with improved editing and face preservation. | $6.5 | $39 |
+| 73 | OpenAI | GPT Image 2.5 Flare | A fast image model for everyday high-quality generation and editing. | $6.5 | $39 |
+| 74 | OpenAI | GPT Image 2.5 Sunburst | An image model optimized for highly precise editing. | $6.5 | $39 |
+| 75 | OpenAI | GPT Image Test | A test image-generation model. | $6.5 | $52 |
+| 76 | OpenAI | GPT Live Transcribe | A real-time speech-to-text model for captions, dictation, and voice interfaces. | Free | Free |
+| 77 | OpenAI | GPT Realtime 2.1 | A reasoning speech-to-speech model with tools and configurable reasoning. | $5.2 | $31.2 |
+| 78 | OpenAI | GPT-5-Codex | A GPT-5 model optimized for autonomous coding in Codex environments. | $1.625 | $13 |
+| 79 | OpenAI | GPT-5.1-Codex | A GPT-5.1 model for agentic coding tasks. | $1.625 | $13 |
+| 80 | OpenAI | GPT-5.1-Codex Max | A frontier programming model for complex agentic software engineering. | $1.625 | $13 |
+| 81 | OpenAI | GPT-5.1-Codex Mini | A smaller, lower-cost version of GPT-5.1-Codex. | $0.325 | $2.6 |
+| 82 | OpenAI | GPT-5.2-Codex | A GPT-5.2 model optimized for code generation, refactoring, and execution. | $2.275 | $18.2 |
+| 83 | OpenAI | GPT-5.3-Codex | A model optimized for agentic coding and Codex environments. | $2.275 | $18.2 |
+| 84 | OpenAI | GPT-OSS-120B | An open-weight mixture-of-experts model for reasoning and agentic production use. | $0.234 | $1.17 |
+| 85 | OpenAI | GPT-OSS-20B | An open-weight model for low-latency inference, tools, and structured outputs. | $0.143 | $0.715 |
+| 86 | OpenAI | O1 | A powerful reasoning model with supported cache discounts. | $19.5 | $78 |
+| 87 | OpenAI | O1 2024-12-17 | A dated O1 reasoning model snapshot. | $19.5 | $78 |
+| 88 | OpenAI | O1 Global | A global O1 reasoning model route. | $19.5 | $78 |
+| 89 | OpenAI | O1 Mini | A faster and lower-cost reasoning model for coding and analytical tasks. | $3.9 | $15.6 |
+| 90 | OpenAI | O1 Mini 2024-09-12 | A dated O1 Mini reasoning model snapshot. | $3.9 | $15.6 |
+| 91 | OpenAI | O1 Preview | A preview reasoning model for complex inference tasks. | $19.5 | $78 |
+| 92 | OpenAI | O1 Preview 2024-09-12 | A dated O1 Preview reasoning model snapshot. | $19.5 | $78 |
+| 93 | OpenAI | O1 Pro | A high-compute reasoning model for consistently stronger answers. | $221 | $884 |
+| 94 | OpenAI | O3 | A reasoning model for coding, mathematics, science, and visual tasks. | $2.6 | $10.4 |
+| 95 | OpenAI | O3 Deep Research | A deep-research model for multi-step web and connected-data research. | $13 | $52 |
+| 96 | OpenAI | O3 Global | A global O3 reasoning model route. | $2.6 | $10.4 |
+| 97 | OpenAI | O3 Mini | A fast, cost-efficient reasoning model for STEM tasks. | $1.43 | $5.72 |
+| 98 | OpenAI | O3 Mini Global | A global O3 Mini reasoning model route. | $1.43 | $5.72 |
+| 99 | OpenAI | O3 Pro | A high-compute reasoning model available through the Responses API. | $26 | $104 |
+| 100 | OpenAI | O3 Pro Global | A global O3 Pro reasoning model route. | $26 | $104 |
+| 101 | OpenAI | O4 Mini | A smart, fast, and cost-efficient reasoning model. | $1.43 | $5.72 |
+| 102 | OpenAI | Omni Moderation | A moderation model for identifying potentially unsafe content. | $0.026 | $0.026 |
+| 103 | OpenAI | Sora 2 | A video-generation model focused on realism, consistency, motion, and narrative continuity. | Free | Free |
+| 104 | OpenAI | Sora 2 Pro | An OpenAI video model available through an official API route. | Free | Free |
+| 105 | OpenAI | Text Ada 001 | A legacy text-generation model. | $0.52 | $0.52 |
+| 106 | OpenAI | Text Babbage 001 | A legacy text-generation model. | $0.65 | $0.65 |
+| 107 | OpenAI | Text Curie 001 | A legacy text-generation model. | $2.6 | $2.6 |
+| 108 | OpenAI | Text Davinci 002 | A legacy text-generation model. | $26 | $26 |
+| 109 | OpenAI | Text Davinci 003 | A legacy text-generation model. | $26 | $26 |
+| 110 | OpenAI | Text Davinci Edit 001 | A legacy model for editing and transforming text. | $26 | $26 |
+| 111 | OpenAI | Text Embedding 3 Large | A large embedding model for semantic search and retrieval. | $0.169 | $0.169 |
+| 112 | OpenAI | Text Embedding 3 Small | A smaller, fast embedding model for retrieval and similarity tasks. | $0.026 | $0.026 |
+| 113 | OpenAI | Text Embedding Ada 002 | An embedding model for text representation and retrieval. | $0.13 | $0.13 |
+| 114 | OpenAI | Text Embedding V1 | A legacy text-embedding model. | $0.13 | $0.13 |
+| 115 | OpenAI | Text Moderation | A model for detecting potentially unsafe text content. | $0.26 | $0.26 |
+| 116 | OpenAI | Text Moderation 007 | A dated text-moderation model. | $0.26 | $0.26 |
+| 117 | OpenAI | Text Moderation Stable | A stable text-moderation model. | $0.26 | $0.26 |
+| 118 | OpenAI | Text Search Ada Doc 001 | A legacy embedding model for document search. | $26 | $26 |
+| 119 | OpenAI | TTS 1 | A text-to-speech model for generating spoken audio. | Free | Free |
+| 120 | OpenAI | TTS 1 1106 | A dated text-to-speech model. | Free | Free |
+| 121 | OpenAI | TTS 1 HD | A high-definition text-to-speech model. | Free | Free |
+| 122 | OpenAI | TTS 1 HD 1106 | A dated high-definition text-to-speech model. | Free | Free |
+| 123 | OpenAI | Whisper 1 | A speech-transcription model for converting audio to text. | Free | Free |
+
+Note: The supplied list contains **123 entries**, not 122.
+
+
+
+138 Qwen AI Models with Input and Output Prices
+
+A catalog of 138 Qwen AI models, including model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+
+| No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
+|---:|---|---|---|---:|---:|
+| 1 | Qwen | Bai Qwen3 VL 235B A22B Instruct | An open-source multimodal Qwen3 model with strong reasoning and general capabilities. | $0.3562 | $1.4248 |
+| 2 | Qwen | BCE Reranker Base | A multilingual ranking model for retrieval and document-ranking tasks. | $0.0884 | Free |
+| 3 | Qwen | Decision Model Preview | A structured model for classification, business decisions, scoring, and confidence estimates. | Free | Free |
+| 4 | Qwen | GME Qwen2 VL 2B Instruct | A multimodal embedding model that processes text, images, and image-text pairs. | $0.1794 | $0.1794 |
+| 5 | Qwen | GTE Rerank V2 | A multilingual text-ranking model for semantic retrieval and RAG applications. | $0.143 | $0.143 |
+| 6 | Qwen | HappyHorse 1.0 I2V | An image-to-video model for generating smooth, detailed motion from still images. | Free | Free |
+| 7 | Qwen | HappyHorse 1.0 R2V | A reference-guided video model supporting up to nine reference images. | Free | Free |
+| 8 | Qwen | HappyHorse 1.0 T2V | A text-to-video model for producing detailed and natural dynamic content. | Free | Free |
+| 9 | Qwen | HappyHorse 1.0 Video Edit | A video-editing model supporting natural-language edits and image-based element replacement. | $2.6 | Free |
+| 10 | Qwen | HappyHorse 1.1 I2V | An upgraded image-to-video model with improved texture, motion, consistency, and synchronization. | Free | Free |
+| 11 | Qwen | HappyHorse 1.1 R2V | An improved reference-based video model for preserving subjects, scenes, and visual styles. | Free | Free |
+| 12 | Qwen | HappyHorse 1.1 T2V | An upgraded text-to-video model with stronger camera control and instruction following. | Free | Free |
+| 13 | Qwen | KAT-Dev | A 32B open-source model optimized for software engineering and coding tasks. | $0.1781 | $0.7124 |
+| 14 | Qwen | QVQ 72B Preview | A preview Qwen model with a 72B parameter configuration. | $1.56 | $1.56 |
+| 15 | Qwen | Qwen 3 235B A22B Instruct 2507 | An instruction-tuned Qwen model provided through the Cerebras route. | $0.364 | $1.82 |
+| 16 | Qwen | Qwen 3 235B A22B Thinking 2507 | A reasoning-focused Qwen model provided through the Cerebras route. | $0.364 | $3.64 |
+| 17 | Qwen | Qwen 3 32B | A Qwen3 model provided through the Cerebras route. | $0.52 | $2.08 |
+| 18 | Qwen | Qwen 3.8 27B | A dense vision-language model for coding, research, and professional workflows. | $1.43 | $2.145 |
+| 19 | Qwen | Qwen Audio 3.0 TTS Flash | A fast speech-synthesis model for real-time interaction and multilingual audio. | Free | Free |
+| 20 | Qwen | Qwen Audio 3.0 TTS Plus | A high-quality speech model supporting languages, dialects, and expressive controls. | Free | Free |
+| 21 | Qwen | Qwen Flash | A fast Qwen model using tiered pricing for efficient general-purpose tasks. | $0.026 | $0.26 |
+| 22 | Qwen | Qwen Flash 2025-07-28 | A dated Qwen Flash version using tiered pricing. | $0.026 | $0.26 |
+| 23 | Qwen | Qwen Image | An image-generation model known for text rendering and image editing. | Free | Free |
+| 24 | Qwen | Qwen Image 2.0 | An accelerated image-generation and editing model with stronger realism and text rendering. | Free | Free |
+| 25 | Qwen | Qwen Image 2.0 Pro | A full-powered image model for advanced text rendering, editing, and photorealism. | Free | Free |
+| 26 | Qwen | Qwen Image 2.1 Pro | A unified text-to-image and editing model balancing quality and efficiency. | Free | Free |
+| 27 | Qwen | Qwen Image 2.1 Turbo | A cost-effective image model supporting transparency, references, and restoration. | Free | Free |
+| 28 | Qwen | Qwen Image 3.0 | An image-generation and editing model for social, ecommerce, and creative content. | $2.6 | Free |
+| 29 | Qwen | Qwen Image 3.0 Pro | A flagship image model for advertising, branding, UI, presentations, and product imagery. | $2.6 | Free |
+| 30 | Qwen | Qwen Image Edit | An image-editing model supporting precise text and visual-semantic editing. | Free | Free |
+| 31 | Qwen | Qwen Image Max | An image-editing model based on Qwen Image technology. | Free | Free |
+| 32 | Qwen | Qwen Long | A Qwen model designed for long-context language tasks. | $0.13 | $0.52 |
+| 33 | Qwen | Qwen Max | A general-purpose Qwen Max model for advanced language tasks. | $0.494 | $1.976 |
+| 34 | Qwen | Qwen Max 0125 | A January 2025 version of the Qwen 2.5 Max model. | $0.494 | $1.976 |
+| 35 | Qwen | Qwen Max LongContext | A long-context Qwen Max model for processing extended inputs. | $9.1 | $27.3 |
+| 36 | Qwen | Qwen MT Plus | A multilingual translation model supporting bidirectional translation across 92 languages. | $0.6396 | $1.9188 |
+| 37 | Qwen | Qwen MT Turbo | A faster multilingual translation model supporting 92 languages. | $0.2496 | $0.6954 |
+| 38 | Qwen | Qwen Plus | A balanced Qwen model positioned between Max and Turbo capabilities. | $0.1464 | $1.4638 |
+| 39 | Qwen | Qwen Plus Latest | A dynamically updated Qwen Plus model for moderately complex tasks. | $0.1464 | $1.4638 |
+| 40 | Qwen | Qwen Plus 2025-04-28 | An April 2025 snapshot supporting thinking and non-thinking modes. | $0.1464 | $1.4638 |
+| 41 | Qwen | Qwen Plus 2025-07-28 | A dated Qwen Plus model for balanced capability and speed. | $0.1464 | $1.4638 |
+| 42 | Qwen | Qwen QwQ 32B | A 32B reasoning model for complex analytical tasks. | $0.52 | $1.04 |
+| 43 | Qwen | Qwen Turbo | A fast, low-cost Qwen model for simple tasks. | $0.0598 | $0.1196 |
+| 44 | Qwen | Qwen Turbo Latest | A dynamically updated Qwen Turbo model for fast general-purpose use. | $0.0598 | $0.1196 |
+| 45 | Qwen | Qwen Turbo 2024-11-01 | A dated Qwen Turbo model for efficient language processing. | $0.0598 | $0.1196 |
+| 46 | Qwen | Qwen Turbo 2025-04-28 | A Qwen3 Turbo snapshot supporting thinking and non-thinking modes. | $0.0598 | $0.1196 |
+| 47 | Qwen | Qwen2 1.5B Instruct | A compact instruction-tuned Qwen2 model. | $0.26 | $0.26 |
+| 48 | Qwen | Qwen2 57B A14B Instruct | A Qwen2 instruction model with a mixture-of-experts configuration. | $0.312 | $0.312 |
+| 49 | Qwen | Qwen2 72B Instruct | A large instruction-tuned Qwen2 model. | $1.04 | $1.04 |
+| 50 | Qwen | Qwen2 7B Instruct | A 7B instruction-tuned Qwen2 model. | $0.104 | $0.104 |
+| 51 | Qwen | Qwen2 VL 72B Instruct | A vision-language model for images, charts, layouts, and long videos. | $2.834 | $8.502 |
+| 52 | Qwen | Qwen2 VL 7B Instruct | A vision-language model for image analysis, visual agents, and tool use. | $0.364 | $0.91 |
+| 53 | Qwen | Qwen2.5 14B Instruct | A 14B instruction-tuned Qwen2.5 model. | $0.52 | $1.56 |
+| 54 | Qwen | Qwen2.5 32B Instruct | A Qwen2.5 instruction model provided through the Chutes route. | $0.78 | $0.78 |
+| 55 | Qwen | Qwen2.5 32B Instruct | A 32B Qwen2.5 instruction model. | $0.78 | $1.56 |
+| 56 | Qwen | Qwen2.5 3B Instruct | A compact 3B instruction-tuned Qwen2.5 model. | $0.52 | $1.04 |
+| 57 | Qwen | Qwen2.5 72B Instruct | A Qwen2.5 instruction model provided through the Chutes route. | $1.04 | $1.04 |
+| 58 | Qwen | Qwen2.5 72B Instruct | A 72B Qwen2.5 instruction model. | $1.04 | $3.12 |
+| 59 | Qwen | Qwen2.5 72B Instruct 128K | A long-context 72B Qwen2.5 instruction model. | $1.04 | $1.04 |
+| 60 | Qwen | Qwen2.5 7B Instruct | A Qwen2.5 instruction model provided through the Chutes route. | $0.52 | $0.52 |
+| 61 | Qwen | Qwen2.5 7B Instruct | A 7B Qwen2.5 instruction model. | $0.52 | $1.04 |
+| 62 | Qwen | Qwen2.5 Coder 1.5B Instruct | A compact coding model for code-generation tasks. | $0.26 | $0.52 |
+| 63 | Qwen | Qwen2.5 Coder 32B Instruct | A 32B coding model for software-development workflows. | $0.208 | $0.208 |
+| 64 | Qwen | Qwen2.5 Coder 7B Instruct | A 7B coding model for code generation and programming tasks. | $0.26 | $0.52 |
+| 65 | Qwen | Qwen2.5 Math 1.5B Instruct | A compact instruction model focused on mathematical tasks. | $0.26 | $0.26 |
+| 66 | Qwen | Qwen2.5 Math 72B Instruct | A large mathematical reasoning model. | $1.04 | $3.12 |
+| 67 | Qwen | Qwen2.5 Math 7B Instruct | A 7B model for mathematical reasoning and problem solving. | $0.26 | $0.52 |
+| 68 | Qwen | Qwen2.5 VL 32B Instruct | A multimodal model for image analysis, tools, and structured outputs. | $0.312 | $0.312 |
+| 69 | Qwen | Qwen2.5 VL 72B Instruct | A vision-language model for objects, charts, documents, and long videos. | $0.65 | $0.65 |
+| 70 | Qwen | Qwen2.5 VL 72B Instruct | A vision-language route with strong Chinese-domain recognition. | $3.12 | $9.36 |
+| 71 | Qwen | Qwen3 0.6B | A compact Qwen3 model supporting thinking and non-thinking modes. | $0.0598 | $0.598 |
+| 72 | Qwen | Qwen3 1.7B | A compact Qwen3 model with improved dialogue, writing, and instruction following. | $0.0598 | $0.598 |
+| 73 | Qwen | Qwen3 14B | A Qwen3 model provided through the Chutes route. | $0.65 | $0.65 |
+| 74 | Qwen | Qwen3 14B | A 14B Qwen3 model with strong reasoning and general capabilities. | $0.208 | $2.08 |
+| 75 | Qwen | Qwen3 235B A22B 2507 | A multilingual instruction-tuned mixture-of-experts model with a 262K context window. | $0.455 | $1.82 |
+| 76 | Qwen | Qwen3 235B A22B Instruct 2507 | An instruction-tuned Qwen3 model with vision and tool support. | $0.364 | $1.456 |
+| 77 | Qwen | Qwen3 235B A22B Thinking 2507 | A reasoning-focused Qwen3 model for difficult analytical tasks. | $0.364 | $3.64 |
+| 78 | Qwen | Qwen3 30B A3B | A Qwen3 model provided through the Chutes route. | $1.3 | $1.3 |
+| 79 | Qwen | Qwen3 30B A3B | A compact mixture-of-experts model combining thinking and non-thinking modes. | $0.156 | $1.56 |
+| 80 | Qwen | Qwen3 30B A3B Instruct 2507 | An instruction model with improved reasoning, coding, tools, and long-context understanding. | $0.1336 | $0.5346 |
+| 81 | Qwen | Qwen3 30B A3B Thinking 2507 | A reasoning model for mathematics, science, coding, and complex instructions. | $0.156 | $1.56 |
+| 82 | Qwen | Qwen3 32B | A Qwen3 model provided through the Chutes route. | $0.52 | $1.04 |
+| 83 | Qwen | Qwen3 32B | A 32B Qwen3 model with integrated thinking and non-thinking modes. | $0.208 | $0.832 |
+| 84 | Qwen | Qwen3 4B | A compact Qwen3 model for writing, dialogue, role-play, and instruction following. | $0.0598 | $0.598 |
+| 85 | Qwen | Qwen3 8B | An 8B Qwen3 model provided through the Chutes route. | $0.26 | $0.26 |
+| 86 | Qwen | Qwen3 8B | An 8B Qwen3 model with improved reasoning and general capabilities. | $0.104 | $1.04 |
+| 87 | Qwen | Qwen3 Coder 30B A3B Instruct | A coding-agent model for autonomous programming and tool use. | $0.26 | $1.04 |
+| 88 | Qwen | Qwen3 Coder 480B A35B Instruct | A large coding-agent model with strong programming and tool capabilities. | $1.066 | $4.264 |
+| 89 | Qwen | Qwen3 Coder Flash | A fast, cost-efficient coding-agent model for autonomous programming. | $0.1768 | $0.7072 |
+| 90 | Qwen | Qwen3 Coder Next | A code-generation model optimized for repositories and agentic coding tools. | $0.1781 | $0.7124 |
+| 91 | Qwen | Qwen3 Coder Plus | A coding-agent model for autonomous programming, tool use, and environment interaction. | $0.702 | $2.808 |
+| 92 | Qwen | Qwen3 Coder Plus 2025-07-22 | A dated Qwen3 Coder Plus model for agentic programming. | $0.702 | $2.808 |
+| 93 | Qwen | Qwen3 Embedding 0.6B | A compact multilingual embedding and ranking model. | $0.0884 | Free |
+| 94 | Qwen | Qwen3 Embedding 4B | A multilingual embedding model for retrieval and ranking tasks. | $0.0884 | $0.0884 |
+| 95 | Qwen | Qwen3 Embedding 8B | A larger multilingual embedding and ranking model. | $0.0884 | Free |
+| 96 | Qwen | Qwen3 Max 2026-01-23 | A trillion-plus-parameter snapshot model with reasoning and tool support. | $0.586 | $2.3442 |
+| 97 | Qwen | Qwen3 Max Preview | A preview Max model supporting optional thinking mode and advanced instructions. | $1.0998 | $4.3992 |
+| 98 | Qwen | Qwen3 Next 80B A3B Thinking | A reasoning-first model for proofs, coding, logic, and agent planning. | $0.1846 | $1.846 |
+| 99 | Qwen | Qwen3 Reranker 0.6B | A compact multilingual ranking model for retrieval tasks. | $0.143 | $0.143 |
+| 100 | Qwen | Qwen3 Reranker 4B | A 4B multilingual ranking model for retrieval and document ranking. | $0.143 | $0.143 |
+| 101 | Qwen | Qwen3 Reranker 8B | An 8B multilingual ranking model for retrieval and ranking tasks. | $0.143 | $0.143 |
+| 102 | Qwen | Qwen3 VL Plus | A vision-language model with visual agents, reasoning, coding, and tool capabilities. | $0.1781 | $1.781 |
+| 103 | Qwen | Qwen3.5 122B A10B | A native vision-language mixture-of-experts model with reasoning and search support. | $0.1464 | $1.171 |
+| 104 | Qwen | Qwen3.5 27B | A native vision-language model for multimodal reasoning and professional tasks. | $0.11 | $0.8798 |
+| 105 | Qwen | Qwen3.5 35B A3B | An efficient vision-language mixture-of-experts model with reasoning and search. | $0.0733 | $0.5866 |
+| 106 | Qwen | Qwen3.5 397B A17B | A large vision-language mixture-of-experts model for reasoning and search tasks. | $0.2137 | $1.2823 |
+| 107 | Qwen | Qwen3.5 Flash | A fast native vision-language model for reasoning and multimodal tasks. | $0.0367 | $0.3666 |
+| 108 | Qwen | Qwen3.5 Plus | A long-context native vision-language model with reasoning and agent capabilities. | $0.1425 | $0.8549 |
+| 109 | Qwen | Qwen3.6 27B | A vision-language model with enhanced coding, STEM, OCR, and spatial intelligence. | $0.5486 | $3.2916 |
+| 110 | Qwen | Qwen3.6 35B A3B | A vision-language model with improved coding, OCR, localization, and multimodal abilities. | $0.3302 | $1.9812 |
+| 111 | Qwen | Qwen3.6 Flash | A fast long-context vision-language model for reasoning and agent workflows. | $0.2197 | $1.3182 |
+| 112 | Qwen | Qwen3.6 Plus | A long-context vision-language model for coding, OCR, reasoning, and agent tasks. | $0.3666 | $2.1996 |
+| 113 | Qwen | Qwen3.6 Plus Preview Free | A removed preview model with no listed charge. | Free | Free |
+| 114 | Qwen | Qwen3.7 Flash | A fast multimodal agent model for coding, GUI operation, and productivity workflows. | $0.0367 | $0.1466 |
+| 115 | Qwen | Qwen3.7 Max | A large Qwen3.7 model for programming, productivity, and autonomous execution. | $2.197 | $6.591 |
+| 116 | Qwen | Qwen3.7 Plus | A long-context multimodal agent model for coding, tools, and productivity tasks. | $0.3666 | $1.4664 |
+| 117 | Qwen | Qwen3.8 2.4T A95B | A 2.4-trillion-parameter model for autonomous, long-duration tasks and research. | $2.6 | $7.8 |
+| 118 | Qwen | Qwen3.8 27B | An open-weight vision-language model for coding, research, and long-running agents. | $0.26 | $3.25 |
+| 119 | Qwen | Qwen3.8 Flash | A flagship vision-language model with 1M context, web access, and tool calling. | $0.1464 | $0.494 |
+| 120 | Qwen | Qwen3.8 Max | A 2.4-trillion-parameter flagship model for complex engineering and autonomous development. | $2.197 | $6.591 |
+| 121 | Qwen | Qwen3.8 Max 2026-09-02 | A dated Qwen3.8 Max snapshot for engineering and autonomous development. | $2.197 | $6.591 |
+| 122 | Qwen | Qwen3.8 Omni Flash | A native multimodal model accepting text, images, audio, and video inputs. | $0.1464 | $0.494 |
+| 123 | Qwen | QwQ 32B | A reasoning and tool-use model provided through the Silicon-based Flow route. | $0.182 | $0.728 |
+| 124 | Qwen | QwQ 32B Preview | A preview version of the QwQ 32B reasoning model. | $0.208 | $0.208 |
+| 125 | Qwen | Text Embedding V4 | A multilingual embedding model for retrieval, clustering, classification, and custom dimensions. | $0.104 | $0.104 |
+| 126 | Qwen | Wan 2.2 I2V Plus | An image-to-video model with improved quality, stability, and camera control. | Free | Free |
+| 127 | Qwen | Wan 2.5 I2V Preview | A video preview model with synchronized sound and ten-second video generation. | Free | Free |
+| 128 | Qwen | Wan 2.5 T2V Preview | A text-to-video preview model with synchronized audio and improved motion. | Free | Free |
+| 129 | Qwen | Wan 2.6 I2V | An image-to-video model with storyboarding, sound generation, and multi-person dialogue. | Free | Free |
+| 130 | Qwen | Wan 2.6 T2I | An image-generation model in the Wan 2.6 family. | Free | Free |
+| 131 | Qwen | Wan 2.6 T2V | A text-to-video model supporting storyboarding, voices, and videos up to 15 seconds. | Free | Free |
+| 132 | Qwen | Wan 2.7 I2V | An image-to-video model with improved emotional performance, motion, and camera cuts. | Free | Free |
+| 133 | Qwen | Wan 2.7 Image | An image-generation and editing model supporting references and interactive editing. | Free | Free |
+| 134 | Qwen | Wan 2.7 Image Pro | A professional image-generation and editing model with enhanced consistency. | Free | Free |
+| 135 | Qwen | Wan 2.7 R2V | A reference-driven video model supporting mixed image/video references and audio references. | $2.6 | Free |
+| 136 | Qwen | Wan 2.7 T2V | A text-to-video model focused on dramatic performance and cinematic camera movement. | Free | Free |
+| 137 | Qwen | Wan 2.7 VideoEdit | A video-editing model supporting natural-language edits, replacements, effects, and camera motion. | Free | Free |
+| 138 | Qwen | Wan 3.0 Video | An integrated video-generation and editing model supporting references, audio, and 30-second videos. | Free | Free |
+| 139 | Qwen | Wan 3.0 Video Prime | A high-speed preview model for advertising, ecommerce, short films, and video editing. | Free | Free |
+
+
+
+
+  33 Anthropic AI Models with Input and Output Prices
+
+A catalog of 33 Anthropic AI models with model names, short descriptions, context information, and listed input and output prices per million tokens.
+
+| No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
+|---:|---|---|---|---:|---:|
+| 1 | Anthropic | Opus 4.6 | A state-of-the-art reasoning model with adaptive thinking, vision, and tool support. | $6.5 | $32.5 |
+| 2 | Anthropic | Claude 2 | An earlier Claude language model for general-purpose AI tasks. | $11.44 | $11.44 |
+| 3 | Anthropic | Claude 2.0 | An earlier Claude model with expanded output pricing for general language tasks. | $11.44 | $51.48 |
+| 4 | Anthropic | Claude 2.1 | An updated Claude 2 model for general-purpose language processing. | $11.44 | $51.48 |
+| 5 | Anthropic | Claude 3 Haiku 20240229 | A fast, vision-capable Claude model for efficient AI applications. | $0.3575 | $0.3575 |
+| 6 | Anthropic | Claude 3 Haiku 20240307 | A fast Claude 3 Haiku version with vision capabilities. | $0.3575 | $1.7875 |
+| 7 | Anthropic | Claude 3 Haiku@20240307 | A dated Claude 3 Haiku route with fast multimodal processing. | $0.3575 | $1.7875 |
+| 8 | Anthropic | Claude 3 Opus 20240229 | Anthropic’s strongest model from the previous Claude generation. | $21.45 | $107.25 |
+| 9 | Anthropic | Claude 3 Opus@20240229 | A dated Claude 3 Opus route for advanced language tasks. | $21.45 | $107.25 |
+| 10 | Anthropic | Claude 3 Sonnet 20240229 | A vision-capable Claude model for balanced general-purpose performance. | $4.29 | $21.45 |
+| 11 | Anthropic | Claude Fable 5 | A highly capable model for demanding reasoning and long-horizon agentic work. | $14.3 | $71.5 |
+| 12 | Anthropic | Claude Fable 5.1 | An advanced model for long-running agents, programming, research, and office documents. | $14.3 | $71.5 |
+| 13 | Anthropic | Claude Haiku 4.5 | A fast, affordable model for coding, agents, real-time applications, and business tasks. | $1.43 | $7.15 |
+| 14 | Anthropic | Claude Haiku 5.5 | A high-throughput model for summarization, compression, queries, classification, and sub-agents. | $0.13 | $0.65 |
+| 15 | Anthropic | Claude Instant 1 | A fast Claude model for responsive general-purpose language applications. | $2.3309 | $2.3309 |
+| 16 | Anthropic | Claude Instant 1.2 | An updated fast Claude Instant model for efficient language processing. | $1.144 | $5.148 |
+| 17 | Anthropic | Claude Opus 4.1 | An upgraded Opus model with improved agent tasks, coding, and reasoning accuracy. | $21.45 | $107.25 |
+| 18 | Anthropic | Claude Opus 4.5 | A frontier reasoning model for engineering, agents, computer use, and long-horizon tasks. | $6.5 | $32.5 |
+| 19 | Anthropic | Claude Opus 4.5 Thinking | An Opus 4.5 route with reasoning mode pre-enabled for direct extended thinking. | $6.5 | $32.5 |
+| 20 | Anthropic | Claude Opus 4.6 | A state-of-the-art reasoning model with adaptive thinking, vision, and tool support. | $6.5 | $32.5 |
+| 21 | Anthropic | Claude Opus 4.6 Thinking | An Opus 4.6 route with adaptive reasoning enabled for direct extended thinking. | $6.5 | $32.5 |
+| 22 | Anthropic | Claude Opus 4.7 | A highly autonomous model for long-horizon agents, knowledge work, vision, and memory tasks. | $6.5 | $32.5 |
+| 23 | Anthropic | Claude Opus 4.7 Thinking | An Opus 4.7 route with adaptive thinking enabled by default. | $6.5 | $32.5 |
+| 24 | Anthropic | Claude Opus 4.8 | Anthropic’s powerful model for complex reasoning, autonomous work, and agent programming. | $6.5 | $32.5 |
+| 25 | Anthropic | Claude Opus 4.8 Thinking | An Opus 4.8 route with adaptive thinking enabled for direct use. | $6.5 | $32.5 |
+| 26 | Anthropic | Claude Opus 5 | A flagship model for coding, reasoning, visual analysis, office work, and agentic tasks. | $6.5 | $32.5 |
+| 27 | Anthropic | Claude Opus 5.5 | A flagship model with strong performance and safety safeguards for demanding workloads. | $5.2 | $26 |
+| 28 | Anthropic | Claude Sonnet 4.5 | A highly capable model for agents, coding, computer use, finance, and cybersecurity. | $4.29 | $21.45 |
+| 29 | Anthropic | Claude Sonnet 4.5 Thinking | A Sonnet 4.5 route with reasoning mode pre-enabled and extended context support. | $4.29 | $21.45 |
+| 30 | Anthropic | Claude Sonnet 4.6 | A frontier model for coding, agents, enterprise workflows, and sustained reasoning. | $3.9 | $19.5 |
+| 31 | Anthropic | Claude Sonnet 4.6 Thinking | A Sonnet 4.6 route with reasoning mode pre-enabled for direct extended thinking. | $3.9 | $19.5 |
+| 32 | Anthropic | Claude Sonnet 5 | A next-generation Sonnet model with adaptive thinking and long-context capabilities. | $2.6 | $13 |
+| 33 | Anthropic | Claude Sonnet 5.5 | A next-generation Sonnet model designed to balance speed and intelligence. | $2.6 | $13 |
+
+
+
+  71 Z.AI AI Models with Input and Output Prices
+
+A catalog of 71 Z.AI models with provider model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+
+| No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
+|---:|---|---|---|---:|---:|
+| 1 | Z.AI | Alicloud GLM 4.7 | A GLM 4.7 model offered through the Alicloud route. | $0.5342 | $2.4931 |
+| 2 | Z.AI | Alicloud GLM 5 | An advanced model for long-context reasoning, tool orchestration, and complex systems engineering. | $0.7324 | $3.2959 |
+| 3 | Z.AI | CBS GLM 4.7 | A GLM 4.7 model offered through the CBS route. | $2.925 | $3.575 |
+| 4 | Z.AI | CC GLM 4.6 | A GLM 4.6 model configured for Claude Code. | $0.078 | $0.286 |
+| 5 | Z.AI | CC GLM 4.7 | A GLM 4.7 model supporting the Claude native interface and Claude Code. | $0.078 | $0.286 |
+| 6 | Z.AI | CC GLM 5 | A GLM 5 model supporting the Claude native interface and Claude Code. | $0.078 | $0.286 |
+| 7 | Z.AI | CC GLM 5 Turbo | A faster GLM 5 Turbo model supporting the Claude native interface. | $0.078 | $0.286 |
+| 8 | Z.AI | CC GLM 5.1 | A GLM 5.1 model supporting the Claude native interface and Claude Code. | $0.078 | $0.286 |
+| 9 | Z.AI | ChatGLM Lite | A lightweight ChatGLM model designed for fast usage. | $0.3715 | $0.3715 |
+| 10 | Z.AI | ChatGLM Pro | A professional ChatGLM model for general language tasks. | $1.8572 | $1.8572 |
+| 11 | Z.AI | ChatGLM Std | A standard ChatGLM model for general-purpose language tasks. | $0.9287 | $0.9287 |
+| 12 | Z.AI | ChatGLM Turbo | A faster ChatGLM model for responsive language applications. | $0.9287 | $0.9287 |
+| 13 | Z.AI | Cloudflare GLM 5.2 | A GLM 5.2 model with a one-million-token context window. | $1.82 | $5.7203 |
+| 14 | Z.AI | Code-Davinci Edit 001 | A coding model designed for code editing and transformation. | $26 | $26 |
+| 15 | Z.AI | Coding GLM 4.5 Air | A compact coding model for software-development tasks. | $0.0182 | $0.1092 |
+| 16 | Z.AI | Coding GLM 4.6 | A coding and reasoning model with tool support and a 200K context window. | $0.078 | $0.286 |
+| 17 | Z.AI | Coding GLM 4.6 Free | A free version of Coding GLM 4.6 with usage limits. | Free | Free |
+| 18 | Z.AI | Coding GLM 4.7 | A coding model supporting OpenAI-compatible formats. | $0.078 | $0.286 |
+| 19 | Z.AI | Coding GLM 4.7 Free | A free version of Coding GLM 4.7 with usage limits. | Free | Free |
+| 20 | Z.AI | Coding GLM 5 | A coding model supporting OpenAI-compatible formats. | $0.078 | $0.286 |
+| 21 | Z.AI | Coding GLM 5 Free | A free version of Coding GLM 5 with usage limits. | Free | Free |
+| 22 | Z.AI | Coding GLM 5 Turbo | A coding-focused GLM 5 Turbo model with OpenAI-compatible formats. | $0.078 | $0.286 |
+| 23 | Z.AI | Coding GLM 5 Turbo Free | A free version of Coding GLM 5 Turbo with usage limits. | Free | Free |
+| 24 | Z.AI | Coding GLM 5.1 | A coding model supporting OpenAI-compatible formats. | $0.078 | $0.286 |
+| 25 | Z.AI | Coding GLM 5.1 Free | A free version of Coding GLM 5.1 with usage limits. | Free | Free |
+| 26 | Z.AI | Coding GLM 5.2 | A long-context coding model for complex engineering and agent workflows. | $0.078 | $0.286 |
+| 27 | Z.AI | Coding GLM 5.2 Free | A free coding-focused API route based on GLM 5.2. | Free | Free |
+| 28 | Z.AI | Coding GLM 5.3 | A reasoning model for coding, software engineering, agents, and vulnerability analysis. | $0.078 | $0.286 |
+| 29 | Z.AI | Coding GLM 5.3 Free | A free version of Coding GLM 5.3 with usage limits. | Free | Free |
+| 30 | Z.AI | Coding GLM 5.3 Flash | A fast coding model for large codebases and long-running development sessions. | $0.0366 | $0.1282 |
+| 31 | Z.AI | Coding GLM 5.3 Flash Free | A free version of Coding GLM 5.3 Flash with usage limits. | Free | Free |
+| 32 | Z.AI | CogView 3 | An image-generation model for creating visuals from text prompts. | $46.15 | $46.15 |
+| 33 | Z.AI | CogView 3 Plus | An enhanced image-generation model for creative visual production. | $13 | $13 |
+| 34 | Z.AI | Doubao 1.5 Pro 256K 250115 | A Doubao language model with a 256K context configuration. | $0.8892 | $1.6006 |
+| 35 | Z.AI | Doubao 1.5 Pro 32K 250115 | A Doubao language model with a 32K context configuration. | $0.1404 | $0.351 |
+| 36 | Z.AI | Embedding 2 | A text-vector model designed for search, retrieval, and external knowledge bases. | $0.0892 | $0.0892 |
+| 37 | Z.AI | Embedding 3 | A text-embedding model supporting custom vector dimensions. | $0.0892 | $0.0892 |
+| 38 | Z.AI | GLM 3 Turbo | A fast general-purpose GLM language model. | $0.923 | $0.923 |
+| 39 | Z.AI | GLM 4 | A general-purpose GLM language model. | $18.46 | $18.46 |
+| 40 | Z.AI | GLM 4 32B 0414 | A 32-billion-parameter open-source model for reasoning, coding, and tool use. | $0.104 | $0.104 |
+| 41 | Z.AI | GLM 4 9B 0414 | A lightweight 9-billion-parameter model for coding, design, search, and function calling. | $0.065 | $0.065 |
+| 42 | Z.AI | GLM 4 Flash | A fast GLM 4 model for responsive language applications. | $0.13 | $0.13 |
+| 43 | Z.AI | GLM 4 Plus | An enhanced GLM 4 model for general-purpose language tasks. | $10.4 | $10.4 |
+| 44 | Z.AI | GLM 4 Vision | A vision-language model for multimodal understanding. | $18.46 | $18.46 |
+| 45 | Z.AI | GLM 4 Vision Plus | An enhanced vision-language model for multimodal tasks. | $2.6 | $2.6 |
+| 46 | Z.AI | GLM 4.1 Vision 9B Thinking | A multimodal reasoning model for complex visual and cognitive tasks. | $0.13 | $0.13 |
+| 47 | Z.AI | GLM 4.5 | A general-purpose model with a 131K context window. | $0.52 | $2.08 |
+| 48 | Z.AI | GLM 4.5 Air | A smaller GLM 4.5 model for efficient language processing. | $0.182 | $1.092 |
+| 49 | Z.AI | GLM 4.5 AirX | A high-speed GLM 4.5 Air model for large-scale, low-latency use. | $1.43 | $5.863 |
+| 50 | Z.AI | GLM 4.5 Vision | A multimodal agent model for video, images, OCR, documents, and web coding. | $0.3562 | $1.0686 |
+| 51 | Z.AI | GLM 4.5 X | A high-speed GLM 4.5 model with generation speeds up to 100 tokens per second. | $2.86 | $11.583 |
+| 52 | Z.AI | GLM 4.6 | A flagship model for coding, reasoning, tool use, and long-context agent tasks. | $0.3562 | $1.4247 |
+| 53 | Z.AI | GLM 4.6 Vision | A visual reasoning model with tool invocation and a 131K context window. | $0.1781 | $0.5343 |
+| 54 | Z.AI | GLM 4.7 | A flagship model for coding, planning, tool collaboration, and agentic workflows. | $0.3562 | $1.4247 |
+| 55 | Z.AI | GLM 4.7 Flash Free | A free and fast version of GLM 4.7 with usage limits. | Free | Free |
+| 56 | Z.AI | GLM 5 Turbo | A model optimized for tool use, instruction following, scheduled tasks, and long-chain execution. | $1.56 | $5.1995 |
+| 57 | Z.AI | GLM 5 Vision Turbo | A multimodal coding model for visual programming, planning, and agent workflows. | $0.9155 | $4.028 |
+| 58 | Z.AI | GLM 5.1 | A flagship model for coding, long-range tasks, autonomous execution, and engineering work. | $1.0985 | $4.394 |
+| 59 | Z.AI | GLM 5.2 | A long-horizon model with a one-million-token context for project-level engineering. | $1.4648 | $5.1269 |
+| 60 | Z.AI | GLM 5.2 Fast Preview | A faster GLM 5.2 preview model with one-million-token context support. | $2.9302 | $10.2557 |
+| 61 | Z.AI | GLM 5.3 | A coding and agentic reasoning model for complex engineering and long-running tasks. | $1.4648 | $5.1269 |
+| 62 | Z.AI | GLM 5.3 Flash | An efficient multimodal model for coding agents, reasoning, and long-horizon engineering. | $0.1465 | $0.5127 |
+| 63 | Z.AI | GLM 5.3 FlashX | A high-speed inference model designed for coding agents and real-time interactions. | $0.3666 | $1.2831 |
+| 64 | Z.AI | GLM 5.3 Prime | A high-speed model with advanced programming and agent capabilities. | $3.055 | $10.699 |
+| 65 | Z.AI | GLM Image | A hybrid autoregressive and diffusion model for image generation, posters, and illustrations. | Free | Free |
+| 66 | Z.AI | GLM OCR | A lightweight 0.9B OCR model for high-precision document parsing. | $0.0367 | $0.0367 |
+| 67 | Z.AI | GLM Z1 32B 0414 | A reasoning model focused on mathematics, coding, logic, and complex tasks. | $0.104 | $0.104 |
+| 68 | Z.AI | GLM Z1 9B 0414 | A compact reasoning model for mathematics and general-purpose tasks. | $0.065 | $0.065 |
+| 69 | Z.AI | GLM Zero Preview | An intelligence-enhanced preview model described as an alternative to O1. | $2.6 | $2.6 |
+| 70 | Z.AI | THUDM/GLM 4.1 Vision 9B Thinking | An open-source vision-language reasoning model for complex multimodal tasks. | $0.052 | $0.208 |
+| 71 | Z.AI | ZAI GLM 5 Turbo | A GLM 5 Turbo model offered through the ZAI route. | $1.56 | $5.1995 |
+  
+
+
+  
+  
