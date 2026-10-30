@@ -1,0 +1,44 @@
+# Cross-Chat Verbatim Recall Test: 440 AI Models
+
+## Method
+
+We gave the system **440 total AI-model items** in one chat, organized into five provider lists:
+
+- 71 Z.AI models
+- 33 Anthropic models
+- 138 Qwen models
+- OpenAI models
+- Google models
+
+Each item was saved in the context library with its provider, model name, description, pricing, and other list information.
+
+After saving the lists, we opened a **completely new chat** for each test. We did not paste the original lists into those new chats. Instead, we asked for one specific provider list and requested it verbatim.
+
+For each separate chat, ask for a specific list:
+
+“Give me the 71 Z.AI models verbatim.”
+
+“Give me the 33 Anthropic AI models verbatim.”
+
+“Give me the 138 Qwen AI models verbatim.”
+
+“Give me the OpenAI AI models verbatim.”
+
+“Give me the Google AI models verbatim.”
+
+The process is:
+
+1. Put the complete lists into one chat.
+2. Save each list to the context library.
+3. Open a brand-new chat.
+4. Ask for one provider’s list using the corresponding prompt.
+5. Compare the response with the original using a deterministic verbatim checker.
+6. Open another brand-new chat.
+7. Repeat the process for the next provider.
+8. Continue until every list has been tested.
+
+The test was not performed by asking all five questions in one conversation. Each question was tested in its **own separate, brand-new chat**.
+
+All five retrieval tests achieved perfect verbatim recall.
+
+**Total tested: 440 AI-model items across five provider lists.**
