@@ -1,9 +1,9 @@
 dataset
 
 
-76 Google AI Models with Input and Output Prices
+77 Google AI Models with Input and Output Prices
 
-A catalog of 76 Google AI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+A catalog of 77 Google AI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
 
 | No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
 |---:|---|---|---|---:|---:|
@@ -90,9 +90,9 @@ A catalog of 76 Google AI models with model names, short descriptions, and liste
 
 
 
-122 OpenAI AI Models with Input and Output Prices
+123 OpenAI AI Models with Input and Output Prices
 
-A catalog of 122 OpenAI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+A catalog of 123 OpenAI models with model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
 
 | No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
 |---:|---|---|---|---:|---:|
@@ -224,9 +224,9 @@ Note: The supplied list contains **123 entries**, not 122.
 
 
 
-138 Qwen AI Models with Input and Output Prices
+139 Qwen AI Models with Input and Output Prices
 
-A catalog of 138 Qwen AI models, including model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
+A catalog of 139 Qwen AI models, including model names, short descriptions, and listed input and output prices per million tokens. Discounts are included only when explicitly listed.
 
 | No. | Provider | Model Name | Very Short Description | Input / M | Output / M |
 |---:|---|---|---|---:|---:|
