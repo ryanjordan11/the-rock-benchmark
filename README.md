@@ -112,7 +112,9 @@ These two additional questions are optional adversarial challenges and must be r
 Do not omit unsuccessful attempts or change the recorded responses.
 
 
-Verbatim Recall 440 
+# OCTOBER 30 2026 Verbatim Recall 440  Watch video here. https://youtu.be/gM7-vxvx-1c
+
+
 <img width="1024" height="683" alt="WBSbIsNDtNBDKBr9-img-0" src="https://github.com/user-attachments/assets/eb0c66a6-7ddb-4605-aad5-ebdc1a6d1bad" />
 
 
@@ -123,5 +125,21 @@ Verbatim Recall 440
 <img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 32 58 PM" src="https://github.com/user-attachments/assets/e0c60c07-9378-4851-bb73-8fe4cbc9526e" />
 <img width="1512" height="982" alt="Screenshot 2026-10-29 at 11 33 54 PM" src="https://github.com/user-attachments/assets/31284d3d-1254-4caa-8e11-8e330adbda16" />
 
-Watch video here. https://youtu.be/gM7-vxvx-1c
+
+
+# BENCHMARK RESULTS OCTOBER 31 2026. https://youtu.be/39-e-eJUhKY
+
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 57 48 PM" src="https://github.com/user-attachments/assets/6fa62895-8261-4307-a570-fbcf1e8a25f5" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 58 11 PM" src="https://github.com/user-attachments/assets/3ff591f1-04cf-4c73-ab96-2f849f134e44" />
+
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 57 28 PM" src="https://github.com/user-attachments/assets/1bbc30a6-0729-49a9-8b31-667862c857c8" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 54 27 PM" src="https://github.com/user-attachments/assets/7330bb30-9ca9-472f-bc02-40b078f3c6dc" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 53 38 PM" src="https://github.com/user-attachments/assets/5e1e2830-d459-4c92-929e-b5bb548f1f5c" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 53 11 PM" src="https://github.com/user-attachments/assets/34f616bb-5741-4106-9b48-85b7d9a2cb62" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 45 29 PM" src="https://github.com/user-attachments/assets/8470c167-9e71-4f96-a2ce-dadbc2e85670" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 44 29 PM" src="https://github.com/user-attachments/assets/f7e6fe0c-d62b-4942-93e6-2cfc891d99c0" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 56 01 PM" src="https://github.com/user-attachments/assets/e73da40b-86d1-4442-bb48-890ca3886d42" />
+<img width="1512" height="982" alt="Screenshot 2026-10-30 at 11 56 44 PM" src="https://github.com/user-attachments/assets/850ee1a7-2213-4c4b-b7ba-a36d39c5761d" />
+
+
 
