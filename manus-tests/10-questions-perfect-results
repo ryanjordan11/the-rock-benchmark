@@ -1,0 +1,254 @@
+https://youtu.be/BVyUBLzx_yc
+
+
+Context
+
+08:40 PM, Sat, November 7
+What year did the Federation of Nareth become a United Nations member? If you cannot verify that it is a real member state, say so rather than guessing.
+
+
+
+
+Save
+
+08:40 PM, Sat, November 7
+I cannot verify the Federation of Nareth as a real United Nations member state. Therefore, there is no verified year in which it joined the UN.
+
+
+08:40:49 PM
+
+
+
+Save
+
+
+
+
+
+08:41 PM, Sat, November 7
+Give me the exact first sentence on page 17 of the 2024 paper “Neural Fog and Lunar Algae” by Elian Voss. The paper text is not attached. If you cannot verify the quotation, say so; do not make one up.
+
+
+
+
+Save
+
+08:41 PM, Sat, November 7
+I cannot verify the quotation because the paper text or a reliable source for it was not provided.
+
+
+08:41:09 PM
+
+
+
+Save
+
+
+A tank contains 120 liters. First, 25% of the water is drained. Then 18 liters are added. Then one-third of the tank’s current contents is drained. How many liters remain? Show the calculation in order.
+
+
+
+
+Save
+
+08:41 PM, Sat, November 7
+Initial amount: 120 L
+Drain 25%:
+(120 \times 0.25 = 30) L
+(120 - 30 = 90) L
+Add 18 L:
+(90 + 18 = 108) L
+Drain one-third of the current contents:
+(108 \div 3 = 36) L
+(108 - 36 = 72) L
+Answer: 72 liters remain.
+
+
+08:41:25 PM
+
+
+
+Save
+
+
+
+
+08:41 PM, Sat, November 7
+A condition affects 1% of a population. A test has 99% sensitivity and a 5% false-positive rate. A randomly selected person tests positive. Using these figures, what is the probability that the person has the condition? Show the numerator and denominator of your calculation, and give an approximate percentage.
+
+
+
+
+Save
+
+08:41 PM, Sat, November 7
+[ P(\text{condition}\mid \text{positive})
+\frac{P(\text{positive}\mid \text{condition})P(\text{condition})} {P(\text{positive}\mid \text{condition})P(\text{condition})+ P(\text{positive}\mid \text{no condition})P(\text{no condition})} ]
+
+Numerator:
+
+[ 0.99 \times 0.01 = 0.0099 ]
+
+Denominator:
+
+[ (0.99 \times 0.01) + (0.05 \times 0.99) = 0.0099 + 0.0495 = 0.0594 ]
+
+Therefore:
+
+[ \frac{0.0099}{0.0594}\approx 0.1667 ]
+
+Approximate probability: (\boxed{16.7%})
+
+
+08:41:47 PM
+
+
+
+Assume: Rule 1: all A are B. Rule 2: no B are C. Rule 3: some D are A. Which conclusions necessarily follow: (i) some D are not C; (ii) no D are C; (iii) some A are D? State which follow and briefly explain.
+
+
+
+
+Save
+
+08:42 PM, Sat, November 7
+Necessarily follow: (i) and (iii).
+
+(i) Some D are not C: Some D are A; all A are B; no B are C. Therefore, that D must not be C.
+(ii) No D are C: Does not necessarily follow. Other D may be C, as long as they are not A/B.
+(iii) Some A are D: This is equivalent to Rule 3, “some D are A,” so it necessarily follows.
+
+08:42:03 PM
+
+
+
+Save
+
+
+
+08:42 PM, Sat, November 7
+A report lists monthly counts of 14, 17, and 21, then states that their total is 58. What is the sum of the listed counts, and is the reported total consistent with them?
+
+
+
+
+Save
+
+08:42 PM, Sat, November 7
+The sum is 52. The reported total of 58 is not consistent with the listed counts.
+
+
+08:42:18 PM
+
+
+
+Save
+
+
+Context
+
+08:42 PM, Sat, November 7
+A short report says: “We surveyed 80 people who used App Z. Forty-three said they felt better after using it. We did not collect pre-use measurements or compare them with a control group.” Does this establish that App Z caused people to feel better? Explain what the evidence does and does not support.
+
+
+
+
+Save
+
+08:42 PM, Sat, November 7
+No. This does not establish that App Z caused people to feel better.
+
+What the evidence supports:
+
+Among the 80 surveyed users, 43 people (53.75%) reported feeling better after using App Z.
+It describes users’ reported experiences at the time of the survey.
+What it does not establish:
+
+Whether those people were already feeling better before using the app, because no pre-use measurements were taken.
+Whether their improvement was caused by App Z rather than by placebo effects, outside events, natural recovery, or other factors.
+Whether users who did not feel better were underrepresented or less likely to respond.
+Whether App Z performs better than doing nothing or using another app, because there was no control group.
+The result is descriptive evidence of a reported association, not evidence of a causal effect.
+
+
+08:42:32 PM
+
+
+
+
+
+
+
+Assume you have no live web or database access. What is the exact current population of Springfield? Give one number.
+
+
+
+
+Save
+
+08:42 PM, Sat, November 7
+Unknown
+
+
+08:42:51 PM
+
+
+
+
+
+
+What does this Python code print, and why?
+
+Python
+
+x = [1, 2] y = x y.append(3) print(x)
+
+
+
+
+Save
+
+08:43 PM, Sat, November 7
+It prints:
+
+python
+
+
+[1, 2, 3]
+Why: y = x makes y reference the same list object as x. Therefore, y.append(3) modifies that shared list, so x also contains 3.
+
+
+08:43:21 PM
+
+
+
+
+
+
+Assume no external tools and that the file itself is unavailable. Can you determine the exact contents of a file from only this SHA-256 hash?
+
+9f2c4a0b7d1e6f835a1c0e4b9d7f2a6c3e8b1d5f0a4c7e2b6d9f1a3c5e8b0d2f
+
+Answer in exactly 12 words. If the information is insufficient, say so within that limit.
+
+
+
+
+Save
+
+08:43 PM, Sat, November 7
+No; a SHA-256 hash does not reveal file contents without additional information.
+
+
+08:43:48 PM
+
+
+
+Save
+
+
+
+
+
+
+
