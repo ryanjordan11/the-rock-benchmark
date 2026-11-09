@@ -118,6 +118,11 @@ These two additional questions are optional adversarial challenges and must be r
 Do not omit unsuccessful attempts or change the recorded responses.
 
 
+<img width="919" height="766" alt="Screenshot 2026-11-09 at 8 11 17 AM" src="https://github.com/user-attachments/assets/57e25c45-0793-4965-86cd-8ecc663a4165" />
+
+
+
+
 # OCTOBER 30 2026 Verbatim Recall 440  Watch video here. https://youtu.be/gM7-vxvx-1c
 
 
