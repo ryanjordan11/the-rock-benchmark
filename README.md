@@ -9,6 +9,9 @@ https://www.ubiquitousai.dev/
 <img width="1280" height="720" alt="1 5 Million Charectars 0% hallucinations (2)" src="https://github.com/user-attachments/assets/55291ee5-0e42-44c2-9b23-41429fdef805" />
 
 
+https://youtu.be/OkOw6p91CeY
+<img width="2048" height="1152" alt="AI_Benchmark_Verification_Result-edited" src="https://github.com/user-attachments/assets/0266994a-96d7-4261-b456-2450edc18725" />
+
 
 
 <img width="2240" height="1120" alt="877169797_1584059617092944_3318412411948470784_n" src="https://github.com/user-attachments/assets/96eecbc8-4f49-4e01-ab2f-774acff6765d" />
