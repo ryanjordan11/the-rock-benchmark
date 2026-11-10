@@ -8,8 +8,10 @@ https://www.ubiquitousai.dev/
 
 <img width="1280" height="720" alt="1 5 Million Charectars 0% hallucinations (2)" src="https://github.com/user-attachments/assets/55291ee5-0e42-44c2-9b23-41429fdef805" />
 
+#  2.36 Million Verbatim results
 
-https://youtu.be/OkOw6p91CeY
+https://youtu.be/OkOw6p91CeY November 10, 2026 7:21 PM EST
+
 <img width="2048" height="1152" alt="AI_Benchmark_Verification_Result-edited" src="https://github.com/user-attachments/assets/0266994a-96d7-4261-b456-2450edc18725" />
 
 
