@@ -31,7 +31,11 @@ https://youtu.be/OkOw6p91CeY November 10, 2026 7:21 PM EST
 
 
 
+Live Cryptographic Fingerprints 4.3 million characters reproduced verbatim, deterministically checked, SHA-verified, independently tested, and reproducible.
 
+Live Cryptographic Fingerprints
+Expected SHA-256
+4c5c0db1d26610115762220df94a7a3586787d70d8a69df3a1a87ce84737c1b0
 
 <img width="2240" height="1120" alt="877169797_1584059617092944_3318412411948470784_n" src="https://github.com/user-attachments/assets/96eecbc8-4f49-4e01-ab2f-774acff6765d" />
 # Rock Benchmarks: Adversarial Access-Control Testing of Patient and Physician Records
